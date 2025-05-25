@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Palindrome Checker</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Palindrome Word Checker</h1>
+            <p class="title">Palindrome Word Checker</p>
+        </header>
+        <main>
+            <form>
+                <label id="palindromeLabel" for="palindromeInput" class="text"
+                       >Type your word below to check if it is a <b>palindrome</b></label
+                >
+                <textarea id="text-input"></textarea>
+                <button type="button" id="check-btn">Check</button>
+                <button type="reset" id="reset-btn">Reset</button>
+            </form>
+            <div id="resultDiv"><p id="result" class="text">“Waiting for your word…”</p></div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
